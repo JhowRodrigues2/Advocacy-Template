@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel .thumbs {
+  display: none;
+}
+
+.description {
+  animation: fromRight 0.7s forwards;
+  animation-delay: 1.4s;
+  opacity: 0;
+}
+@keyframes fromRight {
+  from {
+    left: 0;
+  }
+  to {
+    left: 330px;
+    opacity: 1;
+  }
+}
