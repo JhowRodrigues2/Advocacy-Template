@@ -1,7 +1,63 @@
 import React from "react";
+import Man from "../assets/icon-h.png";
+import Girl from "../assets/icon-f.png";
 
 const Team = () => {
-  return <div>Team</div>;
+  return (
+    <div className="p-10">
+      <div>
+        <h1 className=" text-center font-bold text-3xl">
+          Quem faz do Escritório
+        </h1>
+      </div>
+      <div className="flex justify-between">
+        <div className=" bg-red-500 w-96 flex flex-col gap-4">
+          <div className=" flex justify-center">
+            <img src={Man} alt="fundator" className="w-64 " />
+          </div>
+          <h2 className="text-3xl font-semibold text-center">Jhow Rodrigues</h2>
+          <p className="text-center text-xl font-medium">Sócio-fundador</p>
+          <ul className="flex flex-col gap-2">
+            <li>
+              • Sócio-fundador, advogado, bacharel em direito pela Faculdade de
+              Direito de São Bernardo do Campo.
+            </li>
+            <li>
+              • Pós-graduado em Direito Processual Cível pela Escola Paulista de
+              Direito (EPD).
+            </li>
+            <li>
+              • Pós-graduando em Direito e Processo do Trabalho pela Faculdade
+              de Direito de São Bernardo do Campo.
+            </li>
+          </ul>
+        </div>
+        <div className="  bg-red-500 w-96 flex flex-col gap-4 ">
+          <div className=" flex justify-center">
+            <img src={Girl} alt="fundator" className="w-64 " />
+          </div>
+          <h2 className="text-3xl font-semibold text-center">
+            Thawany Krettli
+          </h2>
+          <p className="text-center text-xl font-medium">Sócio-fundador</p>
+          <ul className="flex flex-col gap-2">
+            <li>
+              • Sócia-fundadora, advogada, bacharel em Direito pela Faculdade de
+              Direito de São Bernardo do Campo.
+            </li>
+            <li>
+              •Pós-graduada em Direito Constitucional pela Pontifícia
+              Universidade Católica de São Paulo (PUC-SP).
+            </li>
+            <li>
+              • Pós-graduanda em Direito Imobiliário pela Escola Paulista de
+              Direito (EPD).
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Team;

@@ -11,12 +11,43 @@
   animation-delay: 1.4s;
   opacity: 0;
 }
+.parter1 {
+  animation: fromCardLeft 1s forwards;
+  animation-delay: 1.4s;
+  opacity: 0;
+}
+.parter2 {
+  animation: fromCardRight 1s forwards;
+  animation-delay: 2.4s;
+  opacity: 0;
+}
 @keyframes fromRight {
   from {
     left: 0;
   }
   to {
     left: 100px;
+    opacity: 1;
+  }
+}
+
+@keyframes fromCardLeft {
+  from {
+    opacity: 0;
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(330px);
+    opacity: 1;
+  }
+}
+@keyframes fromCardRight {
+  from {
+    opacity: 0;
+    transform: translateX(330px);
+  }
+  to {
+    transform: translateX(0);
     opacity: 1;
   }
 }

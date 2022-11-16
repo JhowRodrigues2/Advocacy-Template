@@ -22,7 +22,7 @@ function App() {
           <Route path="/institucional" element={<Institutional />} />
           <Route path="/equipe" element={<Team />} />
         </Routes>
-        <Footer />
+        <Team />
       </BrowserRouter>
     </div>
   );
