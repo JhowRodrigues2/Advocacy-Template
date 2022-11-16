@@ -34,20 +34,16 @@
 @keyframes fromCardLeft {
   from {
     opacity: 0;
-    transform: translateX(0);
   }
   to {
-    transform: translateX(330px);
     opacity: 1;
   }
 }
 @keyframes fromCardRight {
   from {
     opacity: 0;
-    transform: translateX(330px);
   }
   to {
-    transform: translateX(0);
     opacity: 1;
   }
 }

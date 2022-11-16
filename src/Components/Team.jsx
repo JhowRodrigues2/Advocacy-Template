@@ -4,35 +4,12 @@ import Girl from "../assets/icon-f.png";
 
 const Team = () => {
   return (
-    <div className="p-10">
-      <div>
-        <h1 className=" text-center font-bold text-3xl">
-          Quem faz do Escritório
-        </h1>
+    <div className="p-10 w-full h-screen">
+      <div className="flex justify-center w-full">
+        <h1 className="font-bold text-3xl">Quem faz parte do Escritório</h1>
       </div>
-      <div className="flex justify-between">
-        <div className=" bg-red-500 w-96 flex flex-col gap-4">
-          <div className=" flex justify-center">
-            <img src={Man} alt="fundator" className="w-64 " />
-          </div>
-          <h2 className="text-3xl font-semibold text-center">Jhow Rodrigues</h2>
-          <p className="text-center text-xl font-medium">Sócio-fundador</p>
-          <ul className="flex flex-col gap-2">
-            <li>
-              • Sócio-fundador, advogado, bacharel em direito pela Faculdade de
-              Direito de São Bernardo do Campo.
-            </li>
-            <li>
-              • Pós-graduado em Direito Processual Cível pela Escola Paulista de
-              Direito (EPD).
-            </li>
-            <li>
-              • Pós-graduando em Direito e Processo do Trabalho pela Faculdade
-              de Direito de São Bernardo do Campo.
-            </li>
-          </ul>
-        </div>
-        <div className="  bg-red-500 w-96 flex flex-col gap-4 ">
+      <div className="flex mt-10 justify-evenly flex-wrap xl:gap-1 gap-8 ">
+        <div className=" parter1 bg-[#e6e6e6] w-96 p-10 flex flex-col gap-4 ">
           <div className=" flex justify-center">
             <img src={Girl} alt="fundator" className="w-64 " />
           </div>
@@ -52,6 +29,28 @@ const Team = () => {
             <li>
               • Pós-graduanda em Direito Imobiliário pela Escola Paulista de
               Direito (EPD).
+            </li>
+          </ul>
+        </div>
+
+        <div className=" parter2 bg-[#e6e6e6] w-96 p-10 flex flex-col gap-4 ">
+          <div className=" flex justify-center">
+            <img src={Man} alt="fundator" className="w-64 " />
+          </div>
+          <h2 className="text-3xl font-semibold text-center">Jhow Rodrigues</h2>
+          <p className="text-center text-xl font-medium">Sócio-fundador</p>
+          <ul className="flex flex-col gap-2">
+            <li>
+              • Sócio-fundador, advogado, bacharel em direito pela Faculdade de
+              Direito de São Bernardo do Campo.
+            </li>
+            <li>
+              • Pós-graduado em Direito Processual Cível pela Escola Paulista de
+              Direito (EPD).
+            </li>
+            <li>
+              • Pós-graduando em Direito e Processo do Trabalho pela Faculdade
+              de Direito de São Bernardo do Campo.
             </li>
           </ul>
         </div>

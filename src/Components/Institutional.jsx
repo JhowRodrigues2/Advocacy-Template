@@ -1,7 +1,12 @@
 import React from "react";
 
 const Institutional = () => {
-  return <div>Institutional</div>;
+  return (
+    <div>
+      <div></div>
+      <div></div>
+    </div>
+  );
 };
 
 export default Institutional;
