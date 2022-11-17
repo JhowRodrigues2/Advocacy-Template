@@ -8,7 +8,7 @@ const Team = () => {
     AOS.init({ duration: 2000 });
   }, []);
   return (
-    <div className="p-10 w-full h-screen">
+    <div className="p-10 w-full min-h-[80vh]">
       <div className="flex justify-center w-full">
         <h1 className="font-bold text-3xl">Quem faz parte do Escritório</h1>
       </div>

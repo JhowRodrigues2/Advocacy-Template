@@ -12,15 +12,12 @@
   opacity: 0;
 }
 
-.parter1 {
-  animation: fromCardLeft 1s forwards;
-  animation-delay: 1.4s;
-  opacity: 0;
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
 }
-.parter2 {
-  animation: fromCardRight 1s forwards;
-  animation-delay: 2.4s;
-  opacity: 0;
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 @keyframes fromRight {
   from {
@@ -28,23 +25,6 @@
   }
   to {
     left: 100px;
-    opacity: 1;
-  }
-}
-
-@keyframes fromCardLeft {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-@keyframes fromCardRight {
-  from {
-    opacity: 0;
-  }
-  to {
     opacity: 1;
   }
 }
