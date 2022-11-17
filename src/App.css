@@ -11,6 +11,7 @@
   animation-delay: 1.4s;
   opacity: 0;
 }
+
 .parter1 {
   animation: fromCardLeft 1s forwards;
   animation-delay: 1.4s;
