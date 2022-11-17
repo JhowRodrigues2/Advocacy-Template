@@ -9,7 +9,7 @@ const Team = () => {
   }, []);
 
   return (
-    <div className="p-10 w-full h-[80vh]">
+    <div className="p-10 w-full h-auto">
       <div className="flex justify-center w-full">
         <h1 className="font-bold text-3xl">Quem faz parte do Escritório</h1>
       </div>
