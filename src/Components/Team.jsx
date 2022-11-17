@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Man from "../assets/icon-h.png";
 import Girl from "../assets/icon-f.png";
 import AOS from "aos";
@@ -7,8 +7,9 @@ const Team = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
+
   return (
-    <div className="p-10 w-full min-h-[80vh]">
+    <div className="p-10 w-full h-[80vh]">
       <div className="flex justify-center w-full">
         <h1 className="font-bold text-3xl">Quem faz parte do Escritório</h1>
       </div>

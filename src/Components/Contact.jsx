@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
+
 import BgContact from "../assets/bg-contact.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
   };
-
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   return (
     <div
       className=" w-full bg-[#93282C] "
@@ -12,14 +17,20 @@ const Contact = () => {
         backgroundImage: `url("${BgContact}")`,
       }}
     >
-      <div className="flex flex-col text-white items-center gap-8 pt-20 pl-5 pr-5">
+      <div
+        className="flex flex-col text-white items-center gap-8 pt-20 pl-5 pr-5"
+        data-aos="fade-up"
+      >
         <h1 className="text-4xl font-sans font-bold">Fale Conosco</h1>
         <p className="font-sans text-xl">
           Envie uma mensagem no nosso formulário ou entre em contato conosco
           através do nosso endereço ou número de telefone.
         </p>
       </div>
-      <div className=" min-h-[80vh] flex items-center justify-center">
+      <div
+        className=" min-h-[80vh] flex items-center justify-center"
+        data-aos="fade-up"
+      >
         <div className=" min-w-[33%] h-[auto] text-white pb-4 ">
           <div className="justify-center p-5 font-medium text-2xl flex ">
             <ul className="flex flex-col justify-around">
