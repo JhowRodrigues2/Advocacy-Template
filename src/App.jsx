@@ -26,6 +26,7 @@ function App() {
         <Team />
         <Institutional />
         <Contact />
+        <Footer />
       </BrowserRouter>
     </div>
   );

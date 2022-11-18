@@ -2,7 +2,10 @@ import React from "react";
 import Logo from "../assets/logo.png";
 const Institutional = () => {
   return (
-    <div className="bg-[#e6e6e6] flex xl:flex-nowrap flex-wrap m-10">
+    <div
+      id="institutional"
+      className="bg-[#e6e6e6] flex xl:flex-nowrap flex-wrap m-10"
+    >
       <div className=" p-10 flex flex-col gap-6">
         <h1 className="font-bold text-5xl text-[#93282C]">O Escritório </h1>
         <p className="mt-5 text-xl font-sans font-medium text-[#545454]">

@@ -3,7 +3,10 @@ import { Link } from "react-router-dom";
 
 const Service = () => {
   return (
-    <div className="w-full h-auto flex flex-col justify-center items-center">
+    <div
+      id="service"
+      className="w-full h-auto flex flex-col justify-center items-center"
+    >
       <div className="text-center flex flex-col gap-2">
         <p className="text-lg">Advogados Especializados</p>
         <h1 className="text-3xl font-bold"> Serviços Oferecidos</h1>

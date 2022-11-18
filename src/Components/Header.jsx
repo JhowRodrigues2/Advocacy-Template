@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const Header = () => {
   return (
-    <div className="w-full bg-[#93282C] h-[10vh] text-white flex justify-around items-center font-sans lg:text-xl text-sm  ">
+    <div
+      id="header"
+      className="w-full bg-[#93282C] h-[10vh] text-white flex justify-around items-center font-sans lg:text-xl text-sm  "
+    >
       <div className="hidden lg:flex">
         <Link to={"/"}>LOGO</Link>
       </div>

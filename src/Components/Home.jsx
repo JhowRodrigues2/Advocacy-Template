@@ -1,16 +1,20 @@
 import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
 import Img1 from "../assets/img1.jpg";
+import Img2 from "../assets/img2.jpeg";
+import Img3 from "../assets/img3.jpg";
+
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "/src/App.css";
 import { Link } from "react-router-dom";
+
 const Home = () => {
   const [index, setIndex] = useState(0);
   const onChange = (e) => {
     setIndex(e);
   };
   return (
-    <div>
+    <div id="home">
       <Carousel showArrows={true} autoPlay={true} onChange={onChange}>
         <div>
           <img src={Img1} className="h-[600px] object-cover " />
@@ -32,7 +36,7 @@ const Home = () => {
           )}
         </div>
         <div>
-          <img src={Img1} className="h-[600px] object-cover " />
+          <img src={Img2} className="h-[600px] object-cover " />
           {index == 1 && (
             <div className="description absolute top-0 ml-7 text-white  h-full flex items-center">
               <div>
@@ -51,7 +55,7 @@ const Home = () => {
           )}
         </div>
         <div>
-          <img src={Img1} className="h-[600px] object-cover " />
+          <img src={Img3} className="h-[600px] object-cover " />
           {index == 2 && (
             <div className="description absolute top-0 ml-7 text-white  h-full flex items-center">
               <div>
