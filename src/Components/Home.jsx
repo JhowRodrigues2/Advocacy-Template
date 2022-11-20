@@ -6,7 +6,7 @@ import Img3 from "../assets/img3.jpg";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "/src/App.css";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Home = () => {
   const [index, setIndex] = useState(0);
@@ -28,7 +28,7 @@ const Home = () => {
                 </div>
                 <div className="flex justify-center mt-3">
                   <ul className="w-44 h-10 cursor-pointer flex items-center justify-center bg-[#e6e6e6] text-black text-xl hover:ease-in duration-300 hover:bg-[#93282C] hover:text-white">
-                    <Link to={"/contato"}>Fale conosco agora</Link>
+                    <Link to={"/#contact"}>Fale conosco agora</Link>
                   </ul>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const Home = () => {
                 </div>
                 <div className="flex justify-center mt-3">
                   <ul className="w-44 h-10 cursor-pointer flex items-center justify-center bg-[#e6e6e6] text-black text-xl hover:ease-in duration-300 hover:bg-[#93282C] hover:text-white">
-                    <Link to={"/contato"}>Fale conosco agora</Link>
+                    <Link to={"/#contact"}>Fale conosco agora</Link>
                   </ul>
                 </div>
               </div>
@@ -66,7 +66,7 @@ const Home = () => {
                 </div>
                 <div className="flex justify-center mt-3">
                   <ul className="w-44 h-10 cursor-pointer flex items-center justify-center bg-[#e6e6e6] text-black text-xl hover:ease-in duration-300 hover:bg-[#93282C] hover:text-white">
-                    <Link to={"/contato"}>Fale conosco agora</Link>
+                    <Link to={"/#contact"}>Fale conosco agora</Link>
                   </ul>
                 </div>
               </div>
