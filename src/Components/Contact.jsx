@@ -3,7 +3,6 @@ import React, { useEffect } from "react";
 import BgContact from "../assets/bg-contact.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Footer from "./Footer";
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -14,7 +13,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className=" w-full h-screen bg-[#93282C] "
+      className=" w-full min-h-screen bg-[#93282C] "
       style={{
         backgroundImage: `url("${BgContact}")`,
       }}

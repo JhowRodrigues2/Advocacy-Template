@@ -5,7 +5,7 @@ const Institutional = () => {
     <div className="flex justify-center items-center min-h-screen">
       <div
         id="institutional"
-        className="bg-[#e6e6e6] flex xl:flex-nowrap w-full h-screen  flex-wrap items-center "
+        className="bg-[#e6e6e6] flex xl:flex-nowrap w-full min-h-[800px] flex-wrap items-center "
       >
         <div className=" p-10 flex flex-col gap-6 ">
           <h1 className="font-bold text-5xl text-[#93282C]">O Escritório </h1>

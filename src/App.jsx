@@ -11,7 +11,7 @@ import Team from "./Components/Team";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App w-full">
       <BrowserRouter>
         <Header />
         <Routes>
