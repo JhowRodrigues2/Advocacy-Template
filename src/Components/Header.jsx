@@ -5,14 +5,14 @@ const Header = () => {
   return (
     <div
       id="header"
-      className="w-full z-10 fixed bg-[#93282C] h-[10vh] text-white flex justify-around items-center font-sans lg:text-xl text-sm  "
+      className="w-full bg-[#93282C] h-[10vh] text-white flex justify-around items-center font-sans lg:text-xl text-sm "
     >
       <div className="hidden lg:flex">
         <Link to={"/"} className="text-xl font-bold">
           LOGO
         </Link>
       </div>
-      <div className="w-[500px] ">
+      <div className="sm:w-[500px] w-full">
         <ul className="flex items-center justify-around h-[10vh]">
           <Link to={"/#home"} smooth className=" hover:text-[#FFDAC4]">
             Home

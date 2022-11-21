@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Carousel } from "react-responsive-carousel";
 import Img1 from "../assets/img1.jpg";
 import Img2 from "../assets/img2.jpeg";
 import Img3 from "../assets/img3.jpg";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "/src/App.css";
 import { HashLink as Link } from "react-router-hash-link";
@@ -13,13 +14,21 @@ const Home = () => {
   const onChange = (e) => {
     setIndex(e);
   };
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
-    <div id="home">
+    <div id="home" className="w-full">
       <Carousel showArrows={true} autoPlay={true} onChange={onChange}>
         <div>
           <img src={Img1} className="h-[600px] object-cover " />
           {index == 0 && (
-            <div className="description absolute top-0 ml-7 text-white  h-full flex items-center">
+            <div
+              className="absolute top-0 ml-10 text-white  h-full flex items-center "
+              data-aos="fade-right"
+            >
               <div>
                 <p className="text-2xl">Atendimento em Todo Brasil</p>
                 <br></br>
@@ -38,7 +47,10 @@ const Home = () => {
         <div>
           <img src={Img2} className="h-[600px] object-cover " />
           {index == 1 && (
-            <div className="description absolute top-0 ml-7 text-white  h-full flex items-center">
+            <div
+              className=" absolute top-0 ml-10 text-white  h-full flex items-center "
+              data-aos="fade-right"
+            >
               <div>
                 <p className="text-2xl">Atendimento em Todo Brasil</p>
                 <br></br>
@@ -57,7 +69,10 @@ const Home = () => {
         <div>
           <img src={Img3} className="h-[600px] object-cover " />
           {index == 2 && (
-            <div className="description absolute top-0 ml-7 text-white  h-full flex items-center">
+            <div
+              className=" absolute top-0 ml-10 text-white  h-full flex items-center"
+              data-aos="fade-right"
+            >
               <div>
                 <p className="text-2xl">Atendimento em Todo Brasil</p>
                 <br></br>

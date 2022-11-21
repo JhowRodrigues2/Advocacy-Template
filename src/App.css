@@ -6,26 +6,10 @@
   display: none;
 }
 
-.description {
-  animation: fromRight 0.7s forwards;
-  animation-delay: 1.4s;
-  opacity: 0;
-}
-
 input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
 input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
-}
-
-@keyframes fromRight {
-  from {
-    left: 0;
-  }
-  to {
-    left: 100px;
-    opacity: 1;
-  }
 }

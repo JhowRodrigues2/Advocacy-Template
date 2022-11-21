@@ -8,11 +8,11 @@ const Footer = () => {
   return (
     <div
       className="flex text-white bg-[#93282C]
-     w-full h-auto justify-around flex-wrap"
+     w-full h-auto justify-around"
     >
       <div
         data-aos="fade-right"
-        className=" text-3xl font-bold w-1/2 flex justify-center items-center"
+        className=" text-3xl font-bold  flex justify-center items-center"
       >
         LOGO AREA
       </div>
@@ -20,7 +20,7 @@ const Footer = () => {
       <div
         data-aos-delay="1000"
         data-aos="fade-left"
-        className="justify-center font-medium  md:text-xl flex  w-1/3 p-3 flex-col"
+        className="justify-center font-medium  md:text-xl flex p-3 flex-col"
       >
         <h1>CONTATOS</h1>
         <ul className="flex flex-col justify-around">

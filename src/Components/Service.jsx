@@ -13,7 +13,7 @@ const Service = () => {
       </div>
       <div className="flex gap-10 flex-wrap justify-center w-3/5 mt-10 mb-10">
         <div className=" w-96 h-[fix-content] p-8 bg-[#e6e6e6] flex flex-col gap-5 text-[#93282C] hover:bg-[#93282C] hover:text-white hover:ease-in transition duration-300">
-          <i class="fa-sharp fa-solid fa-gavel text-center text-6xl"></i>
+          <i className="fa-sharp fa-solid fa-gavel text-center text-6xl"></i>
           <h2 className="text-center text-2xl font-semibold  ">
             Direito Constitucional
           </h2>
@@ -32,7 +32,7 @@ const Service = () => {
           </Link>
         </div>
         <div className=" w-96 h-[fix-content] p-8 bg-[#e6e6e6] flex flex-col gap-5 text-[#93282C] hover:bg-[#93282C] hover:text-white hover:ease-in transition duration-300">
-          <i class="fa-solid fa-suitcase text-center text-6xl"></i>
+          <i className="fa-solid fa-suitcase text-center text-6xl"></i>
           <h2 className="text-center text-2xl font-semibold  ">
             Direito Trabalhista
           </h2>
@@ -51,7 +51,7 @@ const Service = () => {
           </Link>
         </div>
         <div className=" w-96 h-[fix-content] p-8 bg-[#e6e6e6] flex flex-col gap-5 text-[#93282C] hover:bg-[#93282C] hover:text-white hover:ease-in transition duration-300">
-          <i class="fa-sharp fa-solid fa-house-chimney text-center text-6xl"></i>
+          <i className="fa-sharp fa-solid fa-house-chimney text-center text-6xl"></i>
           <h2 className="text-center text-2xl font-semibold  ">
             Direito Imobiliário
           </h2>
@@ -70,7 +70,7 @@ const Service = () => {
           </Link>
         </div>{" "}
         <div className=" w-96 h-[fix-content] p-8 bg-[#e6e6e6] flex flex-col gap-5 text-[#93282C] hover:bg-[#93282C] hover:text-white hover:ease-in transition duration-300">
-          <i class="fa-solid fa-scale-balanced text-center text-6xl"></i>
+          <i className="fa-solid fa-scale-balanced text-center text-6xl"></i>
           <h2 className="text-center text-2xl font-semibold  ">
             Direito Administrativo
           </h2>
@@ -88,7 +88,7 @@ const Service = () => {
           </Link>
         </div>{" "}
         <div className=" w-96 h-[fix-content] p-8 bg-[#e6e6e6] flex flex-col gap-5 text-[#93282C] hover:bg-[#93282C] hover:text-white hover:ease-in transition duration-300">
-          <i class="fa-sharp fa-solid fa-cart-shopping text-center text-6xl"></i>
+          <i className="fa-sharp fa-solid fa-cart-shopping text-center text-6xl"></i>
           <h2 className="text-center text-2xl font-semibold  ">
             Direito do Consumidor
           </h2>
@@ -104,7 +104,7 @@ const Service = () => {
           </Link>
         </div>{" "}
         <div className=" w-96 h-[fix-content] p-8 bg-[#e6e6e6] flex flex-col gap-5 text-[#93282C] hover:bg-[#93282C] hover:text-white hover:ease-in transition duration-300">
-          <i class="fa-regular fa-heart text-center text-6xl"></i>
+          <i className="fa-regular fa-heart text-center text-6xl"></i>
           <h2 className="text-center text-2xl font-semibold  ">
             Direito Constitucional
           </h2>
