@@ -12,6 +12,7 @@ function App() {
   return (
     <nav>
       <BrowserRouter>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contato" element={<Contact />} />
@@ -19,7 +20,6 @@ function App() {
           <Route path="/institucional" element={<Institutional />} />
           <Route path="/equipe" element={<Team />} />
         </Routes>
-        <Header />
         <Service />
         <Team />
         <Institutional />
