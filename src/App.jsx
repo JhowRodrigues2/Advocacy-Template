@@ -24,6 +24,7 @@ function App() {
         <Team />
         <Institutional />
         <Contact />
+        <Footer />
       </BrowserRouter>
     </nav>
   );
