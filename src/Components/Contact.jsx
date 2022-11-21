@@ -48,7 +48,7 @@ const Contact = () => {
           <form
             action=""
             className="flex flex-col pt-5
-          pl-10 pr-10 justify-around gap-2 overflow-x-hidden"
+          pl-10 pr-10 justify-around gap-2 "
             onSubmit={handleSubmit}
           >
             <label htmlFor="nome" className="cursor-pointer">
