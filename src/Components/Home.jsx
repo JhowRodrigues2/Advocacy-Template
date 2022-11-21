@@ -20,8 +20,13 @@ const Home = () => {
   }, []);
 
   return (
-    <div id="home" className="w-full">
-      <Carousel showArrows={true} autoPlay={true} onChange={onChange}>
+    <div id="home" className="w-full ">
+      <Carousel
+        showArrows={true}
+        autoPlay={true}
+        onChange={onChange}
+        className="relative"
+      >
         <div>
           <img src={Img1} className="h-[600px] object-cover " />
           {index == 0 && (

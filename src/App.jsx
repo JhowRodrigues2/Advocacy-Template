@@ -8,12 +8,10 @@ import Header from "./Components/Header";
 import Institutional from "./Components/Institutional";
 import Service from "./Components/Service";
 import Team from "./Components/Team";
-
 function App() {
   return (
-    <div>
+    <nav>
       <BrowserRouter>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contato" element={<Contact />} />
@@ -21,13 +19,14 @@ function App() {
           <Route path="/institucional" element={<Institutional />} />
           <Route path="/equipe" element={<Team />} />
         </Routes>
+        <Header />
         <Service />
         <Team />
         <Institutional />
         <Contact />
         <Footer />
       </BrowserRouter>
-    </div>
+    </nav>
   );
 }
 

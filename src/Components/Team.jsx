@@ -21,7 +21,7 @@ const Team = () => {
           data-aos="fade-left"
           className="bg-[#e6e6e6] w-96 p-10 flex flex-col gap-4 "
         >
-          <div className=" flex justify-center">
+          <div className="flex justify-center">
             <img src={Girl} alt="fundator" className="w-64 " />
           </div>
           <h2 className="text-3xl font-semibold text-center">
