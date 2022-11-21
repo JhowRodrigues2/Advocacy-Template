@@ -10,7 +10,7 @@ import Service from "./Components/Service";
 import Team from "./Components/Team";
 function App() {
   return (
-    <nav className="overflow-x-hidden">
+    <nav>
       <BrowserRouter>
         <Header />
         <Routes>
